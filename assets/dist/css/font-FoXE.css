@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "FoXE";
+  src: url(../fonts/FoXE/FoXE-Regular.eot);
+  src: src: local("FoXE"), local("FoXE"),
+  /*url(../fonts/FoXE/FoXE-Regular.eot#iefix) format("embedded-opentype"),*/
+  url(../fonts/FoXE/FoXE-Regular.woff) format("woff2"),
+  url(../fonts/FoXE/FoXE-Regular.woff) format("woff"),
+  url(../fonts/FoXE/FoXE-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "FoXE";
+  src: url(../fonts/FoXE/FoXE-Bold.eot);
+  src: local("FoXE"), local("FoXE"),
+  /*url(../fonts/FoXE/FoXE-Bold.eot#iefix) format("embedded-opentype"),*/
+  url(../fonts/FoXE/FoXE-Bold.woff) format("woff2"),
+  url(../fonts/FoXE/FoXE-Bold.woff) format("woff"),
+  url(../fonts/FoXE/FoXE-Bold.ttf) format("truetype");
+  font-weight: 900;
+}

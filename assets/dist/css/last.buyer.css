@@ -1,0 +1,59 @@
+.last-buyer-box {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	-webkit-transition: all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+	-ms-transition: all 1s ease-in;
+	-o-transition: all 1s ease-in;
+	transition: all 1s ease-in;
+	-webkit-transform: translate3d(0, 100%, 0);
+	-moz-transform: translate3d(0, 100%, 0);
+	-ms-transform: translate3d(0, 100%, 0);
+	-o-transform: translate3d(0, 100%, 0);
+	transform: translate3d(0, 100%, 0);
+	overflow: hidden;
+	padding: 10px;
+	width: 100%;
+	max-width: 400px;
+	z-index: 100;
+	display: none;
+}
+.last-buyer-box.active{
+	display: block;
+}
+.last-buyer-box.active.in{
+	overflow: visible;
+	transform: none;
+}
+.last-buyer-box .container{
+	width: 100%;
+	background: #f4f4f4;
+	border-radius: 10px;
+	-webkit-box-shadow: 1px 1px 4px 0 rgba(0,0,0,.4);
+	box-shadow: 1px 1px 4px 0 rgba(0,0,0,.4);
+}
+.last-buyer-box__title{
+	font-size: 16px;
+	line-height: 16px;
+	padding: 5px 15px;
+	background: #ebebeb;
+	border-bottom: 1px solid #edd4d4;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.last-buyer-img-prod{
+	padding: 5px;
+	max-width: 64px;
+}
+.last-buyer-name-prod{
+	font-size: 18px;
+	line-height: 18px;
+	margin: 5px;
+}
+.last-buyer-text{
+	color: #2f2f2f;
+	font-size: 16px;
+	line-height: 16px;
+	margin: 10px 5px;
+}
